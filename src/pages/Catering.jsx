@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, Trash2, ChevronRight, ChevronLeft, Check } from 'lucide-react';
+import {
+  Plus,
+  Trash2,
+  ChevronRight,
+  ChevronLeft,
+  Check,
+} from 'lucide-react';
 import { supabase, isSupabaseConfigured } from '../lib/supabase.js';
 import { sendOrderEmails } from '../lib/emailService.js';
 import CategoryTabs from '../components/CategoryTabs.jsx';
@@ -27,14 +33,22 @@ const MAX_DAILY_ORDERS = 4;
 
 function dayColor(count) {
   if (count >= MAX_DAILY_ORDERS)
-    return { bg: 'bg-red-100', border: 'border-red-400', text: 'text-red-800' };
+    return {
+      bg: 'bg-red-100',
+      border: 'border-red-400',
+      text: 'text-red-800',
+    };
   if (count >= 2)
     return {
       bg: 'bg-yellow-100',
       border: 'border-yellow-400',
       text: 'text-yellow-800',
     };
-  return { bg: 'bg-white', border: 'border-gray-300', text: 'text-gray-900' };
+  return {
+    bg: 'bg-white',
+    border: 'border-gray-300',
+    text: 'text-gray-900',
+  };
 }
 
 export default function Catering() {
@@ -64,6 +78,17 @@ export default function Catering() {
   const [calculatingDelivery, setCalculatingDelivery] = useState(false);
   const [dayOrderCount, setDayOrderCount] = useState(0);
   const [errorMsg, setErrorMsg] = useState('');
+
+  // 🆕 Auto-attach the Square card form the moment the user picks
+  // "Pay with card" — so the card iframe is ready BEFORE they click
+  // "Place order" (no race condition).
+  useEffect(() => {
+    if (paymentMethod === 'square_card') {
+      import('../lib/squarePayment.js').then(({ attachCardIfReady }) =>
+        attachCardIfReady()
+      );
+    }
+  }, [paymentMethod]);
 
   useEffect(() => {
     let cancel = false;
@@ -232,8 +257,8 @@ export default function Catering() {
                 <label className="label">
                   Date{' '}
                   <span className="text-xs text-gray-500">
-                    ({MAX_DAILY_ORDERS - dayOrderCount} of {MAX_DAILY_ORDERS}{' '}
-                    slots)
+                    ({MAX_DAILY_ORDERS - dayOrderCount} of{' '}
+                    {MAX_DAILY_ORDERS} slots)
                   </span>
                 </label>
                 <input
@@ -242,7 +267,11 @@ export default function Catering() {
                   min={MIN_DATE}
                   value={details.date}
                   onChange={(e) =>
-                    setDetails({ ...details, date: e.target.value, time: '' })
+                    setDetails({
+                      ...details,
+                      date: e.target.value,
+                      time: '',
+                    })
                   }
                 />
                 {dayFull && (
@@ -271,8 +300,8 @@ export default function Catering() {
                   )}
                 </select>
                 <p className="mt-2 text-xs text-gray-500">
-                  Kitchen opens 11:00 AM · 2-hour gaps · Max {MAX_DAILY_ORDERS}
-                  /day
+                  Kitchen opens 11:00 AM · 2-hour gaps · Max{' '}
+                  {MAX_DAILY_ORDERS}/day
                 </p>
               </div>
             </div>
@@ -337,7 +366,10 @@ export default function Catering() {
                   className="input"
                   value={details.customer_name}
                   onChange={(e) =>
-                    setDetails({ ...details, customer_name: e.target.value })
+                    setDetails({
+                      ...details,
+                      customer_name: e.target.value,
+                    })
                   }
                 />
               </div>
@@ -351,7 +383,10 @@ export default function Catering() {
                   type="tel"
                   value={details.customer_phone}
                   onChange={(e) =>
-                    setDetails({ ...details, customer_phone: e.target.value })
+                    setDetails({
+                      ...details,
+                      customer_phone: e.target.value,
+                    })
                   }
                   placeholder="(443) 547-1326"
                 />
@@ -371,7 +406,10 @@ export default function Catering() {
                   type="email"
                   value={details.customer_email}
                   onChange={(e) =>
-                    setDetails({ ...details, customer_email: e.target.value })
+                    setDetails({
+                      ...details,
+                      customer_email: e.target.value,
+                    })
                   }
                 />
               </div>
@@ -464,7 +502,10 @@ export default function Catering() {
                             <div className="mt-1 flex items-center gap-1">
                               <button
                                 onClick={() =>
-                                  updateQty(line.key, line.quantity - 1)
+                                  updateQty(
+                                    line.key,
+                                    line.quantity - 1
+                                  )
                                 }
                                 className="rounded border border-gray-200 px-1.5 text-xs hover:bg-gray-50"
                               >
@@ -475,7 +516,10 @@ export default function Catering() {
                               </span>
                               <button
                                 onClick={() =>
-                                  updateQty(line.key, line.quantity + 1)
+                                  updateQty(
+                                    line.key,
+                                    line.quantity + 1
+                                  )
                                 }
                                 className="rounded border border-gray-200 px-1.5 text-xs hover:bg-gray-50"
                               >
@@ -529,7 +573,8 @@ export default function Catering() {
                 disabled={!step2Valid}
                 className="btn-primary mt-4 w-full disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Proceed to checkout <ChevronRight size={16} className="ml-1" />
+                Proceed to checkout{' '}
+                <ChevronRight size={16} className="ml-1" />
               </button>
             </div>
           </aside>
@@ -642,12 +687,11 @@ export default function Catering() {
                 ))}
               </div>
 
-              {/* Square card container — appears only when "Pay with card" is selected */}
               {paymentMethod === 'square_card' && (
                 <div className="mt-4 rounded-xl border border-gray-200 bg-white p-4">
                   <p className="mb-2 text-xs text-gray-500">
-                    🔒 Card details are handled securely by Square. Sandbox test
-                    card: <code>4111 1111 1111 1111</code>
+                    🔒 Card details are handled securely by Square. Sandbox
+                    test card: <code>4111 1111 1111 1111</code>
                   </p>
                   <div
                     id="square-card-container"
@@ -776,7 +820,9 @@ async function placeOrder({
       customer_phone: details.customer_phone,
       order_type: details.order_type,
       delivery_address:
-        details.order_type === 'delivery' ? details.delivery_address : null,
+        details.order_type === 'delivery'
+          ? details.delivery_address
+          : null,
       requested_date: details.date,
       requested_time: details.time,
       items,

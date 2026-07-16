@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -27,6 +28,15 @@ export default function Checkout() {
   const [tipPct, setTipPct] = useState(18);
   const [customTip, setCustomTip] = useState('');
   const [paymentMethod, setPaymentMethod] = useState('card');
+
+  // ⬇️ NEW — mounts the Square card iframe when "Pay with card" is selected
+  useEffect(() => {
+    if (paymentMethod === 'square_card') {
+      import('../lib/squarePayment.js').then(({ attachCardIfReady }) =>
+        attachCardIfReady()
+      );
+    }
+  }, [paymentMethod]);
 
   if (items.length === 0) {
     return (
