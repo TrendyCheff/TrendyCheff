@@ -693,10 +693,18 @@ export default function Catering() {
                     🔒 Card details are handled securely by Square. Sandbox
                     test card: <code>4111 1111 1111 1111</code>
                   </p>
-                  <div
-                    id="square-card-container"
-                    className="min-h-[110px] rounded-lg bg-gray-50 p-3"
-                  />
+                  {/* ⬇️ Stealth form wrapper — kills Chrome autofill overlay */}
+                  <form
+                    autoComplete="off"
+                    onSubmit={(e) => e.preventDefault()}
+                    data-lpignore="true"
+                    data-form-type="other"
+                  >
+                    <div
+                      id="square-card-container"
+                      className="min-h-[110px] rounded-lg bg-gray-50 p-3"
+                    />
+                  </form>
                 </div>
               )}
             </div>
