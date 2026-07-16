@@ -1,4 +1,5 @@
 let payments = null;
+let card = null;
 
 async function initSquare() {
   if (payments) return payments;
@@ -17,47 +18,40 @@ async function initSquare() {
   return payments;
 }
 
-// Attach the Square card form to #square-card-container the moment
-// the user picks "Pay with card". Safe to call multiple times —
-// subsequent calls just no-op because we mark the container as attached.
-let attachInProgress = false;
-
+// Attach the Square card form to #square-card-container once.
+// Safe to call repeatedly — guarded by dataset flag.
 export async function attachCardIfReady() {
   if (typeof window === 'undefined' || !window.Square) return;
-  if (attachInProgress) return;
   const container = document.getElementById('square-card-container');
   if (!container) return;
   if (container.dataset.attached === 'true') return;
-  attachInProgress = true;
+
   try {
-    const p = await initSquare();
-    const card = await p.card();
+    if (!card) {
+      const p = await initSquare();
+      card = await p.card();
+    }
     await card.attach('#square-card-container');
     container.dataset.attached = 'true';
   } catch (e) {
     console.warn('Square card auto-attach failed:', e?.message || e);
-  } finally {
-    attachInProgress = false;
   }
 }
 
 export async function tokenizeCard() {
-  // If the iframe hasn't been attached yet (e.g. user picked Pay-with-card
-  // and immediately clicked Place Order before the useEffect fired),
-  // attach it now before tokenizing. Safe + idempotent.
-  if (!document.getElementById('square-card-container')) {
-    throw new Error('Card container not in the DOM');
-  }
-  if (
-    document.getElementById('square-card-container').dataset.attached !==
-    'true'
-  ) {
+  const container = document.getElementById('square-card-container');
+  if (!container) throw new Error('Card container not in the DOM');
+
+  // Attach if not already attached — uses cached `card`, does NOT call
+  // card.attach() a second time. This is what was breaking tokenization.
+  if (container.dataset.attached !== 'true') {
     await attachCardIfReady();
   }
-  const p = await initSquare();
-  const card = await p.card();
-  await card.attach('#square-card-container');
-  const cardInput = document.querySelector('#square-card-container iframe');
+  if (!card) throw new Error('Square card not initialized');
+  if (container.dataset.attached !== 'true') {
+    throw new Error('Square card failed to attach — see console');
+  }
+
   const result = await card.tokenize();
   if (result.status !== 'OK') {
     throw new Error(

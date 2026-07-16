@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useLayoutEffect as useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
@@ -29,7 +28,8 @@ export default function Checkout() {
   const [customTip, setCustomTip] = useState('');
   const [paymentMethod, setPaymentMethod] = useState('card');
 
-  // ⬇️ NEW — mounts the Square card iframe when "Pay with card" is selected
+  // ⬇️ useLayoutEffect runs BEFORE paint → container is in DOM when
+  // Square attaches. No more "click Place Order, then card pops up".
   useEffect(() => {
     if (paymentMethod === 'square_card') {
       import('../lib/squarePayment.js').then(({ attachCardIfReady }) =>
@@ -299,17 +299,24 @@ export default function Checkout() {
               ))}
             </div>
 
-            {/* Square card container — appears only when "Pay with card" is selected */}
+            {/* Square card container — autofill-killing form wrapper, just like Catering.jsx */}
             {paymentMethod === 'square_card' && (
               <div className="mt-4 rounded-xl border border-gray-200 bg-white p-4">
                 <p className="mb-2 text-xs text-gray-500">
                   🔒 Card details are handled securely by Square. Sandbox test
                   card: <code>4111 1111 1111 1111</code>
                 </p>
-                <div
-                  id="square-card-container"
-                  className="min-h-[110px] rounded-lg bg-gray-50 p-3"
-                />
+                <form
+                  autoComplete="off"
+                  onSubmit={(e) => e.preventDefault()}
+                  data-lpignore="true"
+                  data-form-type="other"
+                >
+                  <div
+                    id="square-card-container"
+                    className="min-h-[110px] rounded-lg bg-gray-50 p-3"
+                  />
+                </form>
               </div>
             )}
 

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useLayoutEffect as useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Plus,
@@ -79,9 +79,9 @@ export default function Catering() {
   const [dayOrderCount, setDayOrderCount] = useState(0);
   const [errorMsg, setErrorMsg] = useState('');
 
-  // 🆕 Auto-attach the Square card form the moment the user picks
-  // "Pay with card" — so the card iframe is ready BEFORE they click
-  // "Place order" (no race condition).
+  // 🆕 Auto-attach Square card form on radio click. useLayoutEffect
+  // runs BEFORE the browser paints, so the container is in the DOM
+  // when attach() is called — no race.
   useEffect(() => {
     if (paymentMethod === 'square_card') {
       import('../lib/squarePayment.js').then(({ attachCardIfReady }) =>
@@ -693,7 +693,6 @@ export default function Catering() {
                     🔒 Card details are handled securely by Square. Sandbox
                     test card: <code>4111 1111 1111 1111</code>
                   </p>
-                  {/* ⬇️ Stealth form wrapper — kills Chrome autofill overlay */}
                   <form
                     autoComplete="off"
                     onSubmit={(e) => e.preventDefault()}
