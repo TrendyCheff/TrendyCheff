@@ -32,6 +32,7 @@ export default function MenuCard({ item, showAdd = true }) {
           src={item.image_url || FALLBACK}
           alt={item.name}
           loading="lazy"
+          decoding="async"
           onError={(e) => {
             e.currentTarget.src = FALLBACK;
           }}
