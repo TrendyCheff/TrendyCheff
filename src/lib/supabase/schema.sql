@@ -1,5 +1,5 @@
 -- =========================================================================
---  TRENDY CHEF · Supabase schema
+--  TRENDY CHEFF · Supabase schema
 --  Run this once in: Supabase Dashboard → SQL Editor → New query → Run
 -- =========================================================================
 

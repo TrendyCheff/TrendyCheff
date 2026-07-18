@@ -90,7 +90,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-800 py-5 text-center text-xs text-gray-500">
-        © {new Date().getFullYear()} Trendy Chef. All rights reserved.
+        © {new Date().getFullYear()} Trendy Cheff. All rights reserved.
       </div>
     </footer>
   );
