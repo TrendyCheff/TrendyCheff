@@ -81,7 +81,8 @@ export const SAMPLE_MENU = [
   {
     id: 'av4',
     name: 'Veg Puff Patties',
-    description: 'Flaky pastry stuffed with spiced vegetables. Sold per piece.',
+    description:
+      'Flaky pastry stuffed with spiced vegetables. Sold per piece.',
     category: 'appetizers_veg',
     price_medium: null,
     price_large: null,
@@ -1583,5 +1584,23 @@ export const SAMPLE_MENU = [
       'https://lh3.googleusercontent.com/d/1gX7ZSgZIefzlR8xA8sJOqG7_6xrhSBOV=w800',
     is_available: true,
     sort_order: 5,
+  },
+
+  // 🆕 Vada Pav — added by us
+  {
+    id: 'av6',
+    name: 'Vada Pav',
+    description:
+      'Mumbai street-style spicy potato fritter in a soft pav roll with green chutney, fried chili, and garlic chutney.',
+    category: 'appetizers_veg',
+    price_medium: 75,
+    price_large: 130,
+    price_per_piece: null,
+    medium_label: 'Medium Tray',
+    large_label: 'Large Tray',
+    image_url:
+      'https://agjfydkixmeobxpzpfqt.supabase.co/storage/v1/object/public/menu-photos/Vada%20Pav.JPG',
+    is_available: true,
+    sort_order: 6,
   },
 ];
