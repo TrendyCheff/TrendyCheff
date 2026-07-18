@@ -42,7 +42,7 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-lg text-lg text-gray-600">
               Authentic Indo-Chinese, Indian and Italian prepared in your
-              kitchen by Trendy Cheff for intimate dinners, parties and
+              kitchen by Trendy Chefff for intimate dinners, parties and
               full-scale events.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
@@ -85,7 +85,7 @@ export default function Home() {
       <section className="bg-gray-50 py-16">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-center font-display text-3xl font-bold text-gray-900 sm:text-4xl">
-            Why Trendy Cheff
+            Why Trendy Chefff
           </h2>
           <div className="mt-10 grid gap-6 sm:grid-cols-3">
             {FEATURES.map((f) => (
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="order-2 md:order-1">
             <img
               src="https://lh3.googleusercontent.com/d/1fxDchg3M4ykCm8x_xyClyBHFEXBk0HXE"
-              alt="Trendy Cheff"
+              alt="Trendy Chefff"
               className="mx-auto aspect-square w-full max-w-md rounded-3xl object-cover shadow-2xl"
               onError={(e) => {
                 e.currentTarget.src =
@@ -137,7 +137,7 @@ export default function Home() {
             </span>
             <h2 className="mt-4 font-display text-4xl font-bold text-gray-900 sm:text-5xl">
               The face behind{' '}
-              <span className="text-primary-500">Trendy Cheff</span>
+              <span className="text-primary-500">Trendy Chefff</span>
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-gray-700">
               With over 10 years of hands-on culinary experience, I bring the

@@ -3,7 +3,7 @@ export const CONTACT = {
   phoneRaw: '+14435471326',
   whatsappRaw: '14435471326',
   email: 'trendycheff@gmail.com',
-  chef: 'Trendy Cheff',
+  chef: 'Trendy Chefff',
   location: 'Maryland',
 };
 

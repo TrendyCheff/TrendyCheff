@@ -30,7 +30,7 @@ export default function About() {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 md:grid-cols-2">
           <img
             src="https://lh3.googleusercontent.com/d/1fxDchg3M4ykCm8x_xyClyBHFEXBk0HXE"
-            alt="Trendy Cheff"
+            alt="Trendy Chefff"
             className="aspect-square w-full rounded-3xl object-cover shadow-xl"
             onError={(e) => {
               e.currentTarget.src =
@@ -39,13 +39,13 @@ export default function About() {
           />
           <div>
             <h1 className="font-display text-4xl font-bold text-gray-900 sm:text-5xl">
-              Meet <span className="text-primary-500">Trendy Cheff</span>
+              Meet <span className="text-primary-500">Trendy Chefff</span>
             </h1>
             <p className="mt-5 text-lg text-gray-700">
               For two decades the chef has been cooking the food that families
               grew up with — the smoky butter chicken of Delhi weddings, the
               street-side hakka noodles of Mumbai, the slow-simmered lentils
-              every Sunday. Trendy Cheff brings those flavors to your table,
+              every Sunday. Trendy Chefff brings those flavors to your table,
               fresh and made just for you.
             </p>
             <p className="mt-4 text-gray-600">

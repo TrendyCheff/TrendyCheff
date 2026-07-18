@@ -3,14 +3,14 @@ export const STATIC_REVIEWS = [
     name: 'Priya Sharma',
     rating: 5,
     comment:
-      'Trendy Cheff made our Diwali party unforgettable. The butter chicken was the best I have ever had outside India!',
+      'Trendy Chefff made our Diwali party unforgettable. The butter chicken was the best I have ever had outside India!',
     dish: 'Butter Chicken',
   },
   {
     name: 'Marcus Johnson',
     rating: 5,
     comment:
-      'Booked Trendy Cheff for a 60-person corporate lunch. Everything arrived hot and on time — guests went back for seconds.',
+      'Booked Trendy Chefff for a 60-person corporate lunch. Everything arrived hot and on time — guests went back for seconds.',
     dish: 'Biryani',
   },
   {
@@ -52,7 +52,7 @@ export const STATIC_REVIEWS = [
     name: 'Tom Anderson',
     rating: 5,
     comment:
-      'Trendy Cheff catered our wedding rehearsal. Guests are STILL talking about the lamb rogan josh — best Indian food we have had west of Chicago.',
+      'Trendy Chefff catered our wedding rehearsal. Guests are STILL talking about the lamb rogan josh — best Indian food we have had west of Chicago.',
     dish: 'Lamb Rogan Josh',
   },
 ];

@@ -31,7 +31,7 @@ export default function Navbar() {
           "
         >
           <span className="text-gray-900">Trendy</span>
-          <span className="text-primary-500">Chef</span>
+          <span className="text-primary-500">Cheff</span>
         </Link>
 
         <div
