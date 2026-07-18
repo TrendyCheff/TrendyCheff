@@ -44,7 +44,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1j4FWEjPe-_fnDaDT2XsBEPv5jDk3BFm_=w800',
+      'https://lh3.googleusercontent.com/d/1j4FWEjPe-_fnDaDT2XsBEPv5jDk3BFm_=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -59,7 +59,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1lipGESxkYjnRXY7-0NZ8OjE3FqJ1BDM5=w800',
+      'https://lh3.googleusercontent.com/d/1lipGESxkYjnRXY7-0NZ8OjE3FqJ1BDM5=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -74,7 +74,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ZLhaCxiqhVxU73gUszsDTP5-piU-KysM=w800',
+      'https://lh3.googleusercontent.com/d/1ZLhaCxiqhVxU73gUszsDTP5-piU-KysM=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -90,7 +90,7 @@ export const SAMPLE_MENU = [
     medium_label: null,
     large_label: null,
     image_url:
-      'https://lh3.googleusercontent.com/d/1L9BWMuQWBGxy7BvNz6QmBUsvqZIwMmyp=w800',
+      'https://lh3.googleusercontent.com/d/1L9BWMuQWBGxy7BvNz6QmBUsvqZIwMmyp=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -107,7 +107,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1Vvv4OmgPf3d9ZeM5m_v_ecdgxNJoPsj5=w800',
+      'https://lh3.googleusercontent.com/d/1Vvv4OmgPf3d9ZeM5m_v_ecdgxNJoPsj5=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -122,7 +122,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1kFBePvHd5WpkGAbe79aecwWDPvKpdi1U=w800',
+      'https://lh3.googleusercontent.com/d/1kFBePvHd5WpkGAbe79aecwWDPvKpdi1U=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -152,7 +152,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/14qg_aJoA5dohm1qeaAyyXDIg-jSgXK7h=w800',
+      'https://lh3.googleusercontent.com/d/14qg_aJoA5dohm1qeaAyyXDIg-jSgXK7h=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -167,7 +167,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1rNA60w0dGDiM6CkRre2hPTc3yhaLXokj=w800',
+      'https://lh3.googleusercontent.com/d/1rNA60w0dGDiM6CkRre2hPTc3yhaLXokj=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -184,7 +184,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1xwsZ1ZQ_nsF_zgo2v6rrvQMPBckX8uVM=w800',
+      'https://lh3.googleusercontent.com/d/1xwsZ1ZQ_nsF_zgo2v6rrvQMPBckX8uVM=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -199,7 +199,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1msXJ7-6qxDMbu_3H-0HVH7XCpZTsvoMK=w800',
+      'https://lh3.googleusercontent.com/d/1msXJ7-6qxDMbu_3H-0HVH7XCpZTsvoMK=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -214,7 +214,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1gVBR49PcpWVG2RbuCgNypTZMcvqFx--v=w800',
+      'https://lh3.googleusercontent.com/d/1gVBR49PcpWVG2RbuCgNypTZMcvqFx--v=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -229,7 +229,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1JJbu03EJehyBxlLfXdDo1X5T1HDVI1SL=w800',
+      'https://lh3.googleusercontent.com/d/1JJbu03EJehyBxlLfXdDo1X5T1HDVI1SL=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -244,7 +244,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1seweq_dZzPuxeugCKnC0pXY9EU_l418l=w800',
+      'https://lh3.googleusercontent.com/d/1seweq_dZzPuxeugCKnC0pXY9EU_l418l=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -259,7 +259,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1woDWSqlUK2btuRuzair0obeBh7-UhMSJ=w800',
+      'https://lh3.googleusercontent.com/d/1woDWSqlUK2btuRuzair0obeBh7-UhMSJ=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -274,7 +274,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1SyyDQbL8x-AP3ntT1q9BF76p-TSy4Uqq=w800',
+      'https://lh3.googleusercontent.com/d/1SyyDQbL8x-AP3ntT1q9BF76p-TSy4Uqq=w400',
     is_available: true,
     sort_order: 7,
   },
@@ -289,7 +289,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1MPOdSYSC7rRkucyB1MTeBfnrXJ-6zGLv=w800',
+      'https://lh3.googleusercontent.com/d/1MPOdSYSC7rRkucyB1MTeBfnrXJ-6zGLv=w400',
     is_available: true,
     sort_order: 8,
   },
@@ -304,7 +304,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1_QN6uAaTbdoJ251riBR1x90p_rQohZbV=w800',
+      'https://lh3.googleusercontent.com/d/1_QN6uAaTbdoJ251riBR1x90p_rQohZbV=w400',
     is_available: true,
     sort_order: 9,
   },
@@ -319,7 +319,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1O17X3tuUgz2aBX2qjXt5N63MZi4EYNMI=w800',
+      'https://lh3.googleusercontent.com/d/1O17X3tuUgz2aBX2qjXt5N63MZi4EYNMI=w400',
     is_available: true,
     sort_order: 10,
   },
@@ -334,7 +334,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/12BpQ3UVDnc41YIFHY2tcIK8c-Zu37XZQ=w800',
+      'https://lh3.googleusercontent.com/d/12BpQ3UVDnc41YIFHY2tcIK8c-Zu37XZQ=w400',
     is_available: true,
     sort_order: 11,
   },
@@ -349,7 +349,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1IUvrYa__PyM5TBUzPgdDgNiZ-G59tpbx=w800',
+      'https://lh3.googleusercontent.com/d/1IUvrYa__PyM5TBUzPgdDgNiZ-G59tpbx=w400',
     is_available: true,
     sort_order: 12,
   },
@@ -364,7 +364,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/12IXOk6uV-KyQ5tLOYx6nVaKN0jKQJywf=w800',
+      'https://lh3.googleusercontent.com/d/12IXOk6uV-KyQ5tLOYx6nVaKN0jKQJywf=w400',
     is_available: true,
     sort_order: 13,
   },
@@ -379,7 +379,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1wWhNcmGsIKSpoC2sP03OO2Rd1Xy50v_7=w800',
+      'https://lh3.googleusercontent.com/d/1wWhNcmGsIKSpoC2sP03OO2Rd1Xy50v_7=w400',
     is_available: true,
     sort_order: 14,
   },
@@ -394,7 +394,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1LKLxoRfUKzXBOkVrAh4Bo_93DZpnR-kF=w800',
+      'https://lh3.googleusercontent.com/d/1LKLxoRfUKzXBOkVrAh4Bo_93DZpnR-kF=w400',
     is_available: true,
     sort_order: 15,
   },
@@ -409,7 +409,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1dkE2-9cgXy5d2SxFI6Pmm00ghn-xAtoG=w800',
+      'https://lh3.googleusercontent.com/d/1dkE2-9cgXy5d2SxFI6Pmm00ghn-xAtoG=w400',
     is_available: true,
     sort_order: 16,
   },
@@ -424,7 +424,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/10SM7ANoNnlisyQc0HY2lUbJ5yOy2-8fx=w800',
+      'https://lh3.googleusercontent.com/d/10SM7ANoNnlisyQc0HY2lUbJ5yOy2-8fx=w400',
     is_available: true,
     sort_order: 17,
   },
@@ -439,7 +439,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1Kw-RUNvuj0tF4gzh4hKLNFq-9jKWTwqX=w800',
+      'https://lh3.googleusercontent.com/d/1Kw-RUNvuj0tF4gzh4hKLNFq-9jKWTwqX=w400',
     is_available: true,
     sort_order: 18,
   },
@@ -454,7 +454,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ojJxxh9K5Qfnou_4BT6F6LW0v9X9u2o9=w800',
+      'https://lh3.googleusercontent.com/d/1ojJxxh9K5Qfnou_4BT6F6LW0v9X9u2o9=w400',
     is_available: true,
     sort_order: 19,
   },
@@ -469,7 +469,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1-lh3wyOj3xXuNhJ28-zafj-UmsYpCDrR=w800',
+      'https://lh3.googleusercontent.com/d/1-lh3wyOj3xXuNhJ28-zafj-UmsYpCDrR=w400',
     is_available: true,
     sort_order: 20,
   },
@@ -484,7 +484,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1-eebLDUSg9LTqYznEaNa530yyCut2NSn=w800',
+      'https://lh3.googleusercontent.com/d/1-eebLDUSg9LTqYznEaNa530yyCut2NSn=w400',
     is_available: true,
     sort_order: 21,
   },
@@ -499,7 +499,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1gkQj6AJhfk2YWKPla0HUESL-cSMVZlDX=w800',
+      'https://lh3.googleusercontent.com/d/1gkQj6AJhfk2YWKPla0HUESL-cSMVZlDX=w400',
     is_available: true,
     sort_order: 22,
   },
@@ -514,7 +514,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1EKrzDd26oV1oI4Lqg71BJVFPnVYvcnrX=w800',
+      'https://lh3.googleusercontent.com/d/1EKrzDd26oV1oI4Lqg71BJVFPnVYvcnrX=w400',
     is_available: true,
     sort_order: 23,
   },
@@ -529,7 +529,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1CxJ9ZuIqt-8iAmTxK201V59VKiAuEzBY=w800',
+      'https://lh3.googleusercontent.com/d/1CxJ9ZuIqt-8iAmTxK201V59VKiAuEzBY=w400',
     is_available: true,
     sort_order: 24,
   },
@@ -544,7 +544,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/19M_7pfnMS-vpyO7AIo-4BQ6gH7Bflba_=w800',
+      'https://lh3.googleusercontent.com/d/19M_7pfnMS-vpyO7AIo-4BQ6gH7Bflba_=w400',
     is_available: true,
     sort_order: 25,
   },
@@ -561,7 +561,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1mbk0J0ImErUVWVsQl0z2KkrMLSkHNY_b=w800',
+      'https://lh3.googleusercontent.com/d/1mbk0J0ImErUVWVsQl0z2KkrMLSkHNY_b=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -576,7 +576,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/10Y0q-BMNMk38bER8vxJZzXmMO-ZWXI4f=w800',
+      'https://lh3.googleusercontent.com/d/10Y0q-BMNMk38bER8vxJZzXmMO-ZWXI4f=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -591,7 +591,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/17ukUwtxe5_UOwSBL-SZzwiRfkLaCWY0u=w800',
+      'https://lh3.googleusercontent.com/d/17ukUwtxe5_UOwSBL-SZzwiRfkLaCWY0u=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -606,7 +606,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1iLxpojRy2Ds--V-RfubXepxsdw64ar8F=w800',
+      'https://lh3.googleusercontent.com/d/1iLxpojRy2Ds--V-RfubXepxsdw64ar8F=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -621,7 +621,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/12HKGfu71igFKoLjziAdX8EBkchuwhOFc=w800',
+      'https://lh3.googleusercontent.com/d/12HKGfu71igFKoLjziAdX8EBkchuwhOFc=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -636,7 +636,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1cetonTURnKX65moUe3XZxU2YkLiss3oi=w800',
+      'https://lh3.googleusercontent.com/d/1cetonTURnKX65moUe3XZxU2YkLiss3oi=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -651,7 +651,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1f0XtH1GQMNvPJTbckkNOYPsnv2owiTzh=w800',
+      'https://lh3.googleusercontent.com/d/1f0XtH1GQMNvPJTbckkNOYPsnv2owiTzh=w400',
     is_available: true,
     sort_order: 7,
   },
@@ -666,7 +666,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1nmKLsc0RF2U8vR4nnpIXEUithfeyUNdM=w800',
+      'https://lh3.googleusercontent.com/d/1nmKLsc0RF2U8vR4nnpIXEUithfeyUNdM=w400',
     is_available: true,
     sort_order: 8,
   },
@@ -681,7 +681,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1snuq6ryxD9XHG-nKxjPA9t7E1z6Jz33p=w800',
+      'https://lh3.googleusercontent.com/d/1snuq6ryxD9XHG-nKxjPA9t7E1z6Jz33p=w400',
     is_available: true,
     sort_order: 9,
   },
@@ -711,7 +711,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1nmA_P-sCB3InnbvtRRZfxSs32MGApclD=w800',
+      'https://lh3.googleusercontent.com/d/1nmA_P-sCB3InnbvtRRZfxSs32MGApclD=w400',
     is_available: true,
     sort_order: 11,
   },
@@ -726,7 +726,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ceGZW1BBcpyqH4RbiaoyzwBVoFlcGyye=w800',
+      'https://lh3.googleusercontent.com/d/1ceGZW1BBcpyqH4RbiaoyzwBVoFlcGyye=w400',
     is_available: true,
     sort_order: 12,
   },
@@ -741,7 +741,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1xF2ZnLNXXgq2mTE6Dsav000kQHsLFK2v=w800',
+      'https://lh3.googleusercontent.com/d/1xF2ZnLNXXgq2mTE6Dsav000kQHsLFK2v=w400',
     is_available: true,
     sort_order: 13,
   },
@@ -756,7 +756,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/198pLm-qJZ0reUH_gwS0i8boIink9-Qcs=w800',
+      'https://lh3.googleusercontent.com/d/198pLm-qJZ0reUH_gwS0i8boIink9-Qcs=w400',
     is_available: true,
     sort_order: 14,
   },
@@ -771,7 +771,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1aw3e4lKPi0-6bClqdAxSJJMQakzuQg4O=w800',
+      'https://lh3.googleusercontent.com/d/1aw3e4lKPi0-6bClqdAxSJJMQakzuQg4O=w400',
     is_available: true,
     sort_order: 15,
   },
@@ -786,7 +786,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1H4AFIpdkzQ78khWgvR9_x18x1X0ppCJ_=w800',
+      'https://lh3.googleusercontent.com/d/1H4AFIpdkzQ78khWgvR9_x18x1X0ppCJ_=w400',
     is_available: true,
     sort_order: 16,
   },
@@ -801,7 +801,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1_DOmKVtKGLiAoRRP4jb2u1tNbbRbik5f=w800',
+      'https://lh3.googleusercontent.com/d/1_DOmKVtKGLiAoRRP4jb2u1tNbbRbik5f=w400',
     is_available: true,
     sort_order: 17,
   },
@@ -818,7 +818,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/13R2u0E-R2pxiRbl4D6xnKGhP_5tsXaBt=w800',
+      'https://lh3.googleusercontent.com/d/13R2u0E-R2pxiRbl4D6xnKGhP_5tsXaBt=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -833,7 +833,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1lMhPmsiYUNy9RGOyCDaWG0MMl2jZhZB9=w800',
+      'https://lh3.googleusercontent.com/d/1lMhPmsiYUNy9RGOyCDaWG0MMl2jZhZB9=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -848,7 +848,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1IVOUoVMq12GxrGDoDuX322m2QYwsF6nL=w800',
+      'https://lh3.googleusercontent.com/d/1IVOUoVMq12GxrGDoDuX322m2QYwsF6nL=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -863,7 +863,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ecqlrj70Z5tUJLNEv5OzUOU9CMGrF4LF=w800',
+      'https://lh3.googleusercontent.com/d/1ecqlrj70Z5tUJLNEv5OzUOU9CMGrF4LF=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -878,7 +878,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/17nDSugdFX9fNhZjF_f8QW-DVnXlt8M9z=w800',
+      'https://lh3.googleusercontent.com/d/17nDSugdFX9fNhZjF_f8QW-DVnXlt8M9z=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -895,7 +895,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1C589kWFgZXh2NeKAK1V9gRPDSWmTXX-D=w800',
+      'https://lh3.googleusercontent.com/d/1C589kWFgZXh2NeKAK1V9gRPDSWmTXX-D=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -910,7 +910,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/16TIinO52Wn_8Vq6_dg8Kl2fRjt3DdcFN=w800',
+      'https://lh3.googleusercontent.com/d/16TIinO52Wn_8Vq6_dg8Kl2fRjt3DdcFN=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -925,7 +925,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/19uqm3jfKUJ2wgnwFi5gfUem13HayZ-Ho=w800',
+      'https://lh3.googleusercontent.com/d/19uqm3jfKUJ2wgnwFi5gfUem13HayZ-Ho=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -940,7 +940,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1evjObQw4uMSvEF9kFI_i14TCDwYOxZKX=w800',
+      'https://lh3.googleusercontent.com/d/1evjObQw4uMSvEF9kFI_i14TCDwYOxZKX=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -955,7 +955,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1AqLQPrCxHCLbO2Y8Una9AwudWa2GArym=w800',
+      'https://lh3.googleusercontent.com/d/1AqLQPrCxHCLbO2Y8Una9AwudWa2GArym=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -987,7 +987,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1dNq4BQFSjoxRTvl-oOOcmvW1OYLvydcQ=w800',
+      'https://lh3.googleusercontent.com/d/1dNq4BQFSjoxRTvl-oOOcmvW1OYLvydcQ=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -1002,7 +1002,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1zsvv6FeoCyRvNAt2xwVfIp_tIIpw_56S=w800',
+      'https://lh3.googleusercontent.com/d/1zsvv6FeoCyRvNAt2xwVfIp_tIIpw_56S=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -1019,7 +1019,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1QOMuTur4IOtd_hAMVcPcxE_zG6FPdKtH=w800',
+      'https://lh3.googleusercontent.com/d/1QOMuTur4IOtd_hAMVcPcxE_zG6FPdKtH=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -1034,7 +1034,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1n0EEGWZBhH7ouRQMduXmR-sPceDb9rU-=w800',
+      'https://lh3.googleusercontent.com/d/1n0EEGWZBhH7ouRQMduXmR-sPceDb9rU-=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -1049,7 +1049,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1wTuliDcmtMC1CyPn8TwJvLq7ydpeztTK=w800',
+      'https://lh3.googleusercontent.com/d/1wTuliDcmtMC1CyPn8TwJvLq7ydpeztTK=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -1079,7 +1079,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1S7f7ceo5UMELCA4pM40Ar9YwmeNDD1_A=w800',
+      'https://lh3.googleusercontent.com/d/1S7f7ceo5UMELCA4pM40Ar9YwmeNDD1_A=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -1094,7 +1094,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ks0vQqDZMPE_aYK0Ovmh5hFHJ9VCUbYv=w800',
+      'https://lh3.googleusercontent.com/d/1ks0vQqDZMPE_aYK0Ovmh5hFHJ9VCUbYv=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -1109,7 +1109,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1vvMLmzOgfe6zVWkJc8ep1163X4w-ua0D=w800',
+      'https://lh3.googleusercontent.com/d/1vvMLmzOgfe6zVWkJc8ep1163X4w-ua0D=w400',
     is_available: true,
     sort_order: 7,
   },
@@ -1126,7 +1126,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1BygZRfhzxocPwMawCyfIkHdY9qIIvAi7=w800',
+      'https://lh3.googleusercontent.com/d/1BygZRfhzxocPwMawCyfIkHdY9qIIvAi7=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -1141,7 +1141,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1zD5sMQS0tSyViA8rYFidx8U17a7VPmoI=w800',
+      'https://lh3.googleusercontent.com/d/1zD5sMQS0tSyViA8rYFidx8U17a7VPmoI=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -1156,7 +1156,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/15MrqwNE-2U9paP_hibNf6Zg6FL0lLjMM=w800',
+      'https://lh3.googleusercontent.com/d/15MrqwNE-2U9paP_hibNf6Zg6FL0lLjMM=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -1171,7 +1171,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1pdQsJpTDoZ2yImNAedbGBLyCxSLEdQ0E=w800',
+      'https://lh3.googleusercontent.com/d/1pdQsJpTDoZ2yImNAedbGBLyCxSLEdQ0E=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -1186,7 +1186,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1lmgF8I1xwl9KINz-HjY6fvtZIH-lmucc=w800',
+      'https://lh3.googleusercontent.com/d/1lmgF8I1xwl9KINz-HjY6fvtZIH-lmucc=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -1201,7 +1201,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1CAUzjShZDIAB6oYtTSuNdXQ6fkEh70o0=w800',
+      'https://lh3.googleusercontent.com/d/1CAUzjShZDIAB6oYtTSuNdXQ6fkEh70o0=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -1216,7 +1216,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ikqEkoQx6KERGR81urnVPHRIXWM6IrTE=w800',
+      'https://lh3.googleusercontent.com/d/1ikqEkoQx6KERGR81urnVPHRIXWM6IrTE=w400',
     is_available: true,
     sort_order: 7,
   },
@@ -1231,7 +1231,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1BIVmUsFZKdpEl6u9S5HlzOZjHF7vw9K8=w800',
+      'https://lh3.googleusercontent.com/d/1BIVmUsFZKdpEl6u9S5HlzOZjHF7vw9K8=w400',
     is_available: true,
     sort_order: 8,
   },
@@ -1246,7 +1246,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1r9ntc433Pi3a7r0oc3BEXU_tR-uf7z7n=w800',
+      'https://lh3.googleusercontent.com/d/1r9ntc433Pi3a7r0oc3BEXU_tR-uf7z7n=w400',
     is_available: true,
     sort_order: 9,
   },
@@ -1261,7 +1261,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/17LNRApLUsCIWPC6A8bqxiUE2sd7XDoup=w800',
+      'https://lh3.googleusercontent.com/d/17LNRApLUsCIWPC6A8bqxiUE2sd7XDoup=w400',
     is_available: true,
     sort_order: 10,
   },
@@ -1276,7 +1276,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1VeE0MBc0LHaCZPcSjRlg_i8_X4TKoKls=w800',
+      'https://lh3.googleusercontent.com/d/1VeE0MBc0LHaCZPcSjRlg_i8_X4TKoKls=w400',
     is_available: true,
     sort_order: 11,
   },
@@ -1306,7 +1306,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1XDWqtLTbpF16jmi3EJ2UqrjJk0VMyoJt=w800',
+      'https://lh3.googleusercontent.com/d/1XDWqtLTbpF16jmi3EJ2UqrjJk0VMyoJt=w400',
     is_available: true,
     sort_order: 13,
   },
@@ -1321,7 +1321,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1rlf1gOU9X5d_t735gMxpLircoUJxSnDL=w800',
+      'https://lh3.googleusercontent.com/d/1rlf1gOU9X5d_t735gMxpLircoUJxSnDL=w400',
     is_available: true,
     sort_order: 14,
   },
@@ -1336,7 +1336,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1eTEaEsL7EZ2tcy875o28uKtus0I_Vxrf=w800',
+      'https://lh3.googleusercontent.com/d/1eTEaEsL7EZ2tcy875o28uKtus0I_Vxrf=w400',
     is_available: true,
     sort_order: 15,
   },
@@ -1353,7 +1353,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1JQ9wIIG-qA9ziKbFFtn_RSBBB9NrNUL3=w800',
+      'https://lh3.googleusercontent.com/d/1JQ9wIIG-qA9ziKbFFtn_RSBBB9NrNUL3=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -1368,7 +1368,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1ZDk3YvlfLnkywY96RWNn4WEvHAVY6OWB=w800',
+      'https://lh3.googleusercontent.com/d/1ZDk3YvlfLnkywY96RWNn4WEvHAVY6OWB=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -1383,7 +1383,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1JqsMTjHqhWwipaVe0fE4OEMKJGQh1w_3=w800',
+      'https://lh3.googleusercontent.com/d/1JqsMTjHqhWwipaVe0fE4OEMKJGQh1w_3=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -1398,7 +1398,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1kFBePvHd5WpkGAbe79aecwWDPvKpdi1U=w800',
+      'https://lh3.googleusercontent.com/d/1kFBePvHd5WpkGAbe79aecwWDPvKpdi1U=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -1413,7 +1413,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1JWxV6Iq23vuMlFlg3N9lJBuQbR6pnu3A=w800',
+      'https://lh3.googleusercontent.com/d/1JWxV6Iq23vuMlFlg3N9lJBuQbR6pnu3A=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -1428,7 +1428,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/14qg_aJoA5dohm1qeaAyyXDIg-jSgXK7h=w800',
+      'https://lh3.googleusercontent.com/d/14qg_aJoA5dohm1qeaAyyXDIg-jSgXK7h=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -1458,7 +1458,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1rNA60w0dGDiM6CkRre2hPTc3yhaLXokj=w800',
+      'https://lh3.googleusercontent.com/d/1rNA60w0dGDiM6CkRre2hPTc3yhaLXokj=w400',
     is_available: true,
     sort_order: 8,
   },
@@ -1475,7 +1475,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1tqHt3_fC9vh1h3yKDky4Z5e93nRg5keD=w800',
+      'https://lh3.googleusercontent.com/d/1tqHt3_fC9vh1h3yKDky4Z5e93nRg5keD=w400',
     is_available: true,
     sort_order: 1,
   },
@@ -1490,7 +1490,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/14vZwNqv3fVJxCGYY_qyyRVyDrslczmcg=w800',
+      'https://lh3.googleusercontent.com/d/14vZwNqv3fVJxCGYY_qyyRVyDrslczmcg=w400',
     is_available: true,
     sort_order: 2,
   },
@@ -1505,7 +1505,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1w2ege2Dr-pvUrZnaWuG-fBoP21G49oBz=w800',
+      'https://lh3.googleusercontent.com/d/1w2ege2Dr-pvUrZnaWuG-fBoP21G49oBz=w400',
     is_available: true,
     sort_order: 3,
   },
@@ -1520,7 +1520,7 @@ export const SAMPLE_MENU = [
     medium_label: null,
     large_label: null,
     image_url:
-      'https://lh3.googleusercontent.com/d/1L9BWMuQWBGxy7BvNz6QmBUsvqZIwMmyp=w800',
+      'https://lh3.googleusercontent.com/d/1L9BWMuQWBGxy7BvNz6QmBUsvqZIwMmyp=w400',
     is_available: true,
     sort_order: 4,
   },
@@ -1535,7 +1535,7 @@ export const SAMPLE_MENU = [
     medium_label: 'Medium Tray',
     large_label: 'Large Tray',
     image_url:
-      'https://lh3.googleusercontent.com/d/1iJYZ-VWNbd1gpxvVoGf5C8m1ljH-328J=w800',
+      'https://lh3.googleusercontent.com/d/1iJYZ-VWNbd1gpxvVoGf5C8m1ljH-328J=w400',
     is_available: true,
     sort_order: 5,
   },
@@ -1550,7 +1550,7 @@ export const SAMPLE_MENU = [
     medium_label: null,
     large_label: null,
     image_url:
-      'https://lh3.googleusercontent.com/d/19CWbafnETegIKS0ucmsMZZ90AlUflTEb=w800',
+      'https://lh3.googleusercontent.com/d/19CWbafnETegIKS0ucmsMZZ90AlUflTEb=w400',
     is_available: true,
     sort_order: 6,
   },
@@ -1565,7 +1565,7 @@ export const SAMPLE_MENU = [
     medium_label: null,
     large_label: null,
     image_url:
-      'https://lh3.googleusercontent.com/d/1DyKosPOJ9qj-tlANBCNEVayYi02a2UNV=w800',
+      'https://lh3.googleusercontent.com/d/1DyKosPOJ9qj-tlANBCNEVayYi02a2UNV=w400',
     is_available: true,
     sort_order: 7,
   },
@@ -1581,7 +1581,7 @@ export const SAMPLE_MENU = [
     medium_label: null,
     large_label: null,
     image_url:
-      'https://lh3.googleusercontent.com/d/1gX7ZSgZIefzlR8xA8sJOqG7_6xrhSBOV=w800',
+      'https://lh3.googleusercontent.com/d/1gX7ZSgZIefzlR8xA8sJOqG7_6xrhSBOV=w400',
     is_available: true,
     sort_order: 5,
   },
