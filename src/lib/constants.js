@@ -8,18 +8,19 @@ export const CONTACT = {
 };
 
 export const CATEGORIES = [
+  { id: 'appetizers_non_veg', label: 'Appetizers (Non-Veg)' },
+  { id: 'appetizers_veg', label: 'Appetizers (Veg)' },
+  { id: 'biryani_flavors', label: 'Biryani Flavors' },
+  { id: 'chefs_specials', label: "Chef's Specials" },
   { id: 'indo_chinese', label: 'Indo-Chinese' },
+  { id: 'italian', label: 'Italian' },
   { id: 'main_course_non_veg', label: 'Main Course (Non-Veg)' },
   { id: 'main_course_veg', label: 'Main Course (Veg)' },
   { id: 'rice', label: 'Rice' },
-  { id: 'biryani_flavors', label: 'Biryani Flavors' },
   { id: 'salad', label: 'Salad' },
-  { id: 'italian', label: 'Italian' },
-  { id: 'appetizers_veg', label: 'Appetizers (Veg)' },
-  { id: 'appetizers_non_veg', label: 'Appetizers (Non-Veg)' },
   { id: 'tandoori_treasures', label: 'Tandoori Treasures' },
-  { id: 'chefs_specials', label: "Chef's Specials" },
 ];
+
 
 export const DELIVERY_FEE = 25;
 export const SMALL_TRAY_MULTIPLIER = 0.65;
